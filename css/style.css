@@ -6,3 +6,42 @@ h3{
 p{
     color: black;
 }
+.t_uppercase{
+    text-transform: uppercase;
+    color: blue;
+}
+t.lowercase{
+    text-transform: lowercase;
+    color: red;
+}
+.t_capitilize{
+    text-transform: capitalize;
+    color: green;
+}
+.t_center{
+    text-align: center;
+    text-decoration: underline overline line-through;
+}
+.t_right{
+    text-align: right;
+}
+.t_indent{
+    text-indent: 150px;
+}
+.t_height{
+    line-height: 30px;
+}
+.t_letter{
+    letter-spacing: 40px;
+    font-style: italic;
+}
+.t_word_spacing{
+    word-spacing: 140;
+}
+.t_shadow{
+ font-size: 40px;
+ text-align: center;
+ font-style: italic;
+ background-color: chartreuse;
+ text-shadow: 15px 15px 4px rgb(255, 0, 0);   
+}
