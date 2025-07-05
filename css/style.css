@@ -45,3 +45,34 @@ t.lowercase{
  background-color: chartreuse;
  text-shadow: 15px 15px 4px rgb(255, 0, 0);   
 }
+#heading1{
+    color: red
+    f0n
+}
+#hall{
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+}
+   /*linear-gradient-example*/
+div{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+ }
+.linear{
+    height: 500px;
+    border: 2px solid black;
+     background: linear-gradient(rgb(255, 204, 0),rgb(0, 0, 0),green,yellow);
+     }
+     .radial{
+        height: 600px;
+        border: 2px solid orangered;
+        background: radial-gradient(circle at center, rgb(0, 255, 76),orangered,yellow)
+        
+     }
+     .conic{
+        height: 500px;
+        background: conic-gradient(from 90deg,red,green,yellow,blue);
+     }

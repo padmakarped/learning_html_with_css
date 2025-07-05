@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+    display: flex;
+    position: relative;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border:1px solid black ;
+    border-radius: 500px;
+    background-color: brown;
+}
+.circle:nth-child(3){
+    background-color: rgb(55, 216, 30);
+    z-index: 10;
+}
+.circle:nth-child(1){
+    position: absolute;
+    left: 250px;
+    background-color: rgb(193, 26, 26);
+    z-index: 15;
+}
+
+.circle:nth-child(2){
+     position: absolute;
+    left: 500px;
+    background-color: rgb(26, 9, 218);
+    z-index: 6;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="circle">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+    </div>
+</body>
+</html>

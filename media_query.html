@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     .box{
+        width: 100%;
+        height: auto;
+        background-color: green;
+        color: white;
+        text-align: center;
+        line-height: 200px;
+        font-size: 24px;
+        margin: 20px auto;
+        border: 2px solid red;
+        border-radius: 20px;
+     }
+     .info{
+        width: 1500px;
+        margin: auto;
+        padding: 20px;
+        background-color: rgb(15, 226, 226);
+        color: black;
+        font-size: 18px;
+        border-left: 6px solid gray;
+        margin-bottom: 20px;
+        border: 2px solid orangered;
+
+     }
+     .responsive_image{
+        width: 200px;
+        max-width: 600px;
+        border: 4px solid red;
+        padding: 30px;
+        margin: auto;
+        border: 2px dotted red;
+     }
+     /*mobile view 480px or less*/
+     @media(max-width:800px){
+        .box{
+            background-color: blue;
+            font-size: 50px;
+            width: 800px;
+        }
+        .info{
+            background-color: red;
+            color: white;
+        }
+        .responsive_image{
+            background-color: greenyellow;
+            color: white;
+        }
+     }
+     @media(min-width:800px) and (max-width:900px){
+        .box{
+            background-color: red;
+            font-size: 100px;
+            width: 400px;
+        }
+        .info{
+            background-color: brown;
+            color: white;
+        }
+     }
+    </style>
+
+</head>
+<body>
+    <div class="box">responsive box</div>
+
+    <div class="info">
+        <h2> about us</h2>
+        <p>A paragraph is a distinct unit of writing, typically consisting of multiple sentences, that focuses on a single idea or topic. It's a fundamental way to organize and structure text, making it easier for readers to follow the author's train of thought. A paragraph usually begins with an indentation on the first line.A paragraph is a distinct unit of writing, typically consisting of multiple sentences, that focuses on a single idea or topic. It's a fundamental way to organize and structure text, making it easier for readers to follow the author's train of thought. A paragraph usually begins with an indentation on the first .</p>
+        <p> paragraph is a distinct unit of writing, typically consisting of multiple sentences, that focuses on a single idea or topic. It's a fundamental way to organize and structure text, making it easier for readers to follow the author's train of thought. A paragraph usually begins with an indentation on the first line.A paragraph is a distinct unit of writing, typically consisting of multiple sentences, that focuses on a single idea or topic. It's a fundamental way to organize and structure text, making it easier for readers to follow the author's train of thought. A paragraph usually begins with an indentation on the first .</p>
+
+
+    </div>
+    <img src="images/nature.image.webp" alt="image" class="rensponsive_image">
+
+</body>
+</html>

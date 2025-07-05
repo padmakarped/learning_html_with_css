@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 6px;
+    font-size: 40px;
+    transform-style:preserve-3d ;
+    font-weight: 700;
+    position: relative;
+}
+
+#text>b{
+    height: 50px;
+    box-shadow: 0px 30px 8px gray;
+    color: azure;
+    background: red;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotateX(-85deg);
+    animation: getup;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#text>b:nth-child(2){
+    animation-delay: 250ms;
+}
+#text>b:nth-child(3){
+    animation-delay: 500ms;
+}
+#text>b:nth-child(4){
+    animation-delay: 750ms;
+}
+#text>b:nth-child(5){
+    animation-delay: 1000ms;
+}
+#text>b:nth-child(6){
+    animation-delay: 1250ms;
+}
+#text>b:nth-child(7){
+    animation-delay: 1500ms;
+}
+#text>b:nth-child(8){
+    animation-delay: 1750ms;
+}
+#text>b:nth-child(9){
+    animation-delay: 2000ms;
+}
+
+@keyframes getup{
+   10% , 50%{
+    transform: rotateX(0deg);
+   }
+   10% , 60%,100%{
+  transform: rotateX(-90deg);
+   }
+}
+
+    </style>
+</head>
+<body>
+    <div id="text">
+        <b>P</b>
+        <b>A</b>
+        <b>D</b>
+        <b>M</b>
+        <b>A</b>
+        <b>K</b>
+        <b>A</b>
+        <b>R</b>
+    </div>
+</body>
+</html>
